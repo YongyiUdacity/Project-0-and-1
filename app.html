@@ -1,0 +1,148 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <link rel = "Stylesheet" type = "text/css" href = "Style.css">
+    <Title>Yongyi's Note</Title>
+  </head>
+  <body>
+    <div class="Title">
+      <h1>Stage 1: Webpages, Documents, and Structure</h1>
+    </div>
+     
+    <div class="Lesson">
+      <h2>Lesson 1: The Basics of the Web</h2>
+      
+        <div class="Concept">
+          <div class="Concept-Title">
+            <h3>How the Web Works</h3>
+          </div>
+          <div class="Concept-Description">
+            <p>The main pieces in the web are:</p>
+            <p>1. Browser: a program that runs on user's computer to display files found on the web.</p>
+            <p>2. Internet: the world's largest computer network.</p>
+            <p>3. Servers: computers that host the files that make up the web.</p>
+            <p>The Browers makes request through Internet to Servers. These requests use <b>H</b>yper<b>T</b>ext <b>T</b>ransfer <b>P</b>rotocol (HTTP). The server responses to the requests with file that each Browser displays.</p>
+          </div>  
+        </div>
+      
+      <div class="Concept">
+        <div class="Concept-Title">
+          <h3>HTML</h3>
+        </div>
+        <div class="Concept-Description">
+          <p>HTML stands for <b>H</b>yper<b>T</b>ext <b>M</b>arkup <b>L</b>anguage. It is the main type of document on the web.</p>
+          <p>HTML is made up of: text content; markup; references to other documents; and links to other pages.</p>
+        </div>
+      </div>
+     
+      <div class="Concept">
+        <div class="Concept-Title">
+          <h3>Tags and Elements</h3>
+        </div>
+        <div class="Concept-Description">
+          <p>HTML markup is made up with tags. The tag is always contained in angled brackets. </p>
+          <p>An HTML element refers to everything within a set of opening and closing tags.</p>
+          <p>Attribute is a property of an HTML element.</p>
+          <p>Examples of tags listed in the lesson:</p>
+          <p>"b" is for bold.</p>
+          <p>"em" is for italic.</p>
+          <p>"a" is for linking another webpage with "href" attribute.</p>
+          <p>"img" is for linking an image with "src" attribute.</p>
+          <p>"br" is for adding a line space.</p>
+          <p>"p" is for creating a paragraph.</p>
+        </div>
+      </div>
+      
+      <div class="Concept">
+        <div class="Concept-Title">
+          <h3>Inline Tags and Block Tags</h3>
+        </div>
+        <div class="Concept-Description">
+          <p>Block tags are the tags created in an invisible box, such as "p" and "div". </p>
+          <p>Inline tags are just tags in the line, such as "a", "img", "br", and "span". </p>
+        </div>  
+      </div>
+    </div>
+    
+    <div class="Lesson">
+      <h2>Lesson 2: Creating a Structured Document with HTML</h2>
+      
+      <div class="Concept">
+        <div class="Concept-Title">
+          <h3>The Tree Structure of HTML</h3>
+        </div>
+        <div class="Concept-Description">
+          <p>Since the HTML elements can have other elements inside of them to form a hierarchical structure, You can draw this relationship like a family tree with nested boxes to represent each element.</p>
+        </div>
+      </div>
+      
+      <div class="Concept">
+        <div class="Concept-Title">
+          <h3>How to Structure HTML</h3>
+        </div>
+        <div class="Concept-Description">
+          <p>HTML elements are either inline or block. Block elements form an "invisible box" around the content inside of them</p>
+          <p><b>D</b>ocument <b>O</b>bject <b>M</b>odel (DOM) is a programming interface for HTML which can provide a structured representation of the document. More details about DOM can be found in <a href = "http://en.wikipedia.org/wiki/Document_Object_Model">DOM</a>.</p>
+          <p>When you read an HTML documents as text, you see a wave of changing indentations going up and down the left side of the document. The more indented an element is, the more deeply nested its corresponding "box" is.
+        </div>  
+      </div>
+      
+      <div class="Concept">
+        <div class="Concept-Title">
+          <h3>Text Editors</h3>
+        </div>
+        <div class="Concept-Description">
+          <p>For small project, scratchpad.io is a great tool.</p>
+          <p>For big project, Sublime is a better choice.</p>
+        </div>  
+      </div>
+    </div>
+    
+    <div class="Lesson">
+      <h2>Lesson 3: Adding Style to Structure with CSS</h2>
+      
+      <div class="Concept">
+        <div class="Concept-Title">
+          <h3>Reasons to Avoid Repetition</h3>
+        </div>
+        <div class="Concept-Description">
+          <p>1. Avoid repetition can reduce the minor errors when the programmer wants to make a change to repeated code.</p>
+          <p>2. Avoid repetition help keeping consistency of the style in a webpage.</p>
+        </div>
+      </div>
+      
+      <div class="Concept">
+        <div class="Concept-Title">
+          <h3>CSS</h3>
+        </div>
+        <div class="Concept-Description">
+          <p>CSS stands for <b>C</b>ascading <b>S</b>tyle <b>S</b>heets. It is code written to control the "style" of related HTML elements.</p>
+          <p>One can use "class" attribute to apply style to the elements with the same class name.</p>
+        </div>
+      </div>
+      
+      <div class="Concept">
+        <div class="Concept-Title">
+          <h3>How to include CSS Styling in a Web Page</h3>
+        </div>
+        <div class="Concept-Description">
+          <p>1. Write CSS in the "head" of the HTML.</p>
+          <p>2. Link the HTML to a separate CSS file.</p>
+          <p>3. Write the style inline with the HTML.</p>
+        </div>  
+      </div>
+      
+      <div class="Concept">
+        <div class="Concept-Title">
+          <h3>Box Sizing and Positioning</h3>
+        </div>
+        <div class="Concept-Description">
+          <p>HTML elements are boxes and each box has margin, border, padding and content.</p>
+          <p>To control the box size, you can set sizes in terms of percents rather than pixels, or you can set the "box-sizing" attribute to "border-box" for every element.</p>
+          <p>Divs are block elements which take up the entire width of a page. You can override this behavior by using "display: flex;" rule.</p>
+        </div>  
+      </div>
+    </div>
+    
+  </body>
+</html>
